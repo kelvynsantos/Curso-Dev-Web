@@ -9,7 +9,7 @@
       
     <body> 
         <h2>Login</h2> 
-        <form action="processa.php"> <!--Define where we want to send the Datas with the action tag-->
+       <!-- <form action="processa.php"> -Define where we want to send the Datas with the action tag-->
              Login:<br> 
              <input type="text" name="login"><br> 
               
@@ -17,7 +17,36 @@
              <input type="password" name="senha"><br>
                
              <input type="submit" value="Logar">
-        </form>
+        </form> 
          
+        <h2>Cadastre-se</h2> 
+         
+        <form>
+        Login:<br> 
+        <input type="text" name="login"><br> 
+        
+        sexo:<br> 
+        <input type="radio" name="sexo" value="M">Masculino<br> 
+        <input type="radio" name="sexo" value="F">Feminino<br><br> 
+         
+        Interesses<br> 
+        <input type="checkbox" name="interesses">Futebol<br>
+        <input type="checkbox" name="interesses">Cursos<br> 
+        <input type="checkbox" name="interesses">Moda<br><br>
+         
+        Estado<br> 
+        <select>
+             <option value="sp">SP</option> 
+             <option value="mg">MG</option> 
+             <option value="rj">RJ</option> 
+             <option value="ma">MA</option>
+        </select><br><br>
+         
+        Observações: <br>
+        <textarea></textarea><br><br>
+         
+        <input type="submit" value="Cadastrar">
+    </form> 
+
     </body>
 </html>
