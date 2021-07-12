@@ -1,0 +1,31 @@
+.conteudo { 
+    background: blue; 
+    border: 1px solid gray; 
+    width: 200px; 
+    height: 200px; 
+} 
+ 
+.conteudo1 { 
+    background: red;
+    border: 1px solid gray; 
+    width: 150px; 
+    height: 150px; 
+    float:right;
+} 
+ 
+.conteudo2 { 
+    background: red; 
+    border: 2px solid gray;
+    width: 150px; 
+    height: 150px; 
+    float: left; 
+} 
+ 
+.conteudo3 {
+     background:purple; 
+     border: 2px solid grey; 
+     width: 200px; 
+     height: 200px; 
+     margin: 20px;
+     float: left;
+}
