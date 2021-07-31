@@ -2,7 +2,8 @@
     background: blue; 
     border: 1px solid gray; 
     width: 200px; 
-    height: 200px; 
+    height: 200px;  
+    margin: 10px;
 } 
  
 .conteudo1 { 
@@ -10,15 +11,17 @@
     border: 1px solid gray; 
     width: 150px; 
     height: 150px; 
-    float:right;
+    float:right; 
+    margin: 10px;
 } 
  
 .conteudo2 { 
     background: red; 
-    border: 2px solid gray;
+    border: 2px solid white;
     width: 150px; 
     height: 150px; 
     float: left; 
+    margin: 10px;
 } 
  
 .conteudo3 {
@@ -28,4 +31,8 @@
      height: 200px; 
      margin: 20px;
      float: left;
+     margin: 10px;
+}
+.clear {
+     clear: both;
 }

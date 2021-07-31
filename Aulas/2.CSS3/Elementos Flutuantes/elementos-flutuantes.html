@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+         <title>Elementos Flutuantes</title> 
+         <meta charset="utf-8"> 
+            <style type="text/css"> 
+                #principal{
+                  border: 5px solid red; 
+                  background: green; 
+
+                }
+                .conteudo{ 
+                    background: blue; 
+                    border: 1px solid gray; 
+                    width: 200px; 
+                    height: 200px; 
+                    margin: 10px; 
+                    float: right; 
+                } 
+                /*  .conteudo1{ 
+                    background: red; 
+                    border: 1px solid gray;
+                    width: 200px;
+                    height: 200px; 
+                    margin: 10px; 
+                    float: left; 
+                } */ 
+                .clear {
+                    clear: both;
+                }
+            </style>
+    </head> 
+    <body> 
+        <div id="principal">  
+            <div class="conteudo"> 
+                Conteudo 1
+            </div>
+            
+            <div class="conteudo"> 
+                Conteudo 2
+            </div> 
+            
+            <div class="conteudo"> 
+                Conteudo 3
+            </div> 
+            <p class="clear">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie lorem sagittis mauris imperdiet placerat. Quisque ut tortor odio. Quisque et consequat purus. Fusce finibus quam nec ullamcorper pretium. Nullam vehicula quam augue, mollis venenatis orci finibus in. Proin suscipit eget neque in porttitor. Etiam vel facilisis dui. Duis malesuada nisl vitae magna faucibus, vitae vulputate nibh ultricies. Pellentesque fringilla, ante ac suscipit gravida, tortor tellus laoreet arcu, at ornare mi massa eget tortor. Cras vel urna rhoncus, tempus urna et, ultrices sapien.
+            </p>
+    <p class="clear">Curabitur laoreet pulvinar ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada lorem ultricies, rhoncus ex at, finibus ante. Aenean efficitur orci vel tempus placerat. Mauris ac ex ac lacus lobortis sollicitudin. Nullam consectetur ante vitae urna ultricies, ac sagittis est commodo. Quisque condimentum justo nibh, a molestie risus pulvinar eu. Pellentesque sit amet libero sit amet ipsum egestas aliquet. Nulla facilisi. Maecenas mollis velit vitae convallis pharetra. Aenean non faucibus metus. Aliquam tincidunt mi sit amet ligula sodales condimentum.
+    </p>  
+           <!-- <div class="clear"></div> -->
+        </div> 
+         
+    </body>
+</html>
