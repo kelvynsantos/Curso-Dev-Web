@@ -1,0 +1,41 @@
+/*Limpar formatações padrões*/ 
+* { 
+    margin: 0; 
+    padding: 0;
+}
+ body { 
+     font-size: 1em; 
+     font-family: 'Times New Roman', Times, serif; 
+     background:#e6e6e6; 
+ }
+ /*Layout*/ 
+ #areaCabecalho{ 
+     background-color: #f7b600; 
+     padding: 15px; 
+     text-align:center;
+ } 
+ #areaLogo, #areaMenus{
+    padding: 10px; 
+ } 
+/*Formatações em geral*/ 
+h1 { 
+    color: #4e4e4e; 
+    font-size: 2.5em;   
+} 
+.branco {
+     color: white;
+}  
+/* Formatação do Menu*/ 
+a:link,a:visited { 
+    color: #FFF; 
+    padding: 8px 12px ; 
+} 
+a:hover{ 
+    color: #f7b600; 
+    background: #FFF;
+} 
+a:active{} 
+ 
+a { 
+    text-decoration: none;
+}
