@@ -1,0 +1,27 @@
+ body { 
+     color:orange; 
+     font-size: 25px; 
+    /* border: 1px solid blue; border e background não são herdados
+     background: gray; */
+ } 
+ /*p { 
+     color: red !important; /usar important esse atrbiuto é mais importante que qualquer outro/
+ } 
+ p{ 
+     color: blue; /sempre a ultima regra é aplicada/
+ } 
+Se um seletor for mais específico que outro,a regra mais específica será aplicada(precedência sobre regras mais gerais*/ 
+ 
+* { 
+    color: red;
+} 
+ 
+h2 { /*3*/
+    color: yellow;
+} 
+h2.verde { /*2*/
+    color: green;
+} 
+h2#amarelo { /*1*/
+    color: blue;
+}

@@ -1,0 +1,43 @@
+ /*ul { 
+     list-style-type: none;
+     margin: 0; 
+     padding: 0;
+ } 
+ li{ 
+     padding:10px  20px; 
+     border: 1px solid red; 
+     background: url(seta.png) no-repeat left center;
+
+ } */
+ #home #navegacao .home  a ,#sobre #navegacao .sobre a,
+ #servicos #navegacao .servicos a, #noticias #navegacao .noticias a,#contatos #navegacao .contatos a {
+      background-position: right bottom; 
+      background-color: #f99200; 
+      color: #fff;
+
+} 
+
+ul{ 
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+} 
+ 
+ul a { 
+    width: 200px; 
+    height: 40px; 
+    /*border: 1px solid red;*/ 
+    display: block; 
+    color: #000; 
+    text-decoration: none; 
+    text-indent: 40px; 
+    line-height: 40px; 
+    background:  #f7b600 url(menu.png) no-repeat left bottom;
+} 
+ 
+a:hover{ 
+    background-position: right bottom; 
+    background-color: #f99200; 
+    color: #fff;
+} 
+ 
